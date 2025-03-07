@@ -1,0 +1,136 @@
+@import url(../css/960_12_col.css);
+
+@font-face {
+    font-family: 'QuicksandBook';
+    src: url('../fonts/Quicksand_Book-webfont.eot');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    color: #ffffff;
+    background: #413f3b url("../images/bg.jpg");
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 90%;
+    margin: 0px;
+    text-align: center;
+    padding-top: 100px;
+}
+a {
+    color: #b5c1ad;
+    text-decoration: none;
+}
+a:hover {
+    color: #ffffff;
+}
+.header {
+    background-image: url('../images/bg-header.jpg');
+    padding: 0px 0px 0px 0px;
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+}
+.nav {
+    float: right;
+    font-family: QuicksandBook, Arial, Helvetica, sans-serif;
+    padding: 45px 0px 0px 0px;
+}
+.wrapper {
+    width: 960px;
+    margin: 0px auto;
+    background-image: url(images/bg-triangle.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    text-align: left;
+}
+.logo {
+    margin-bottom: 20px;
+}
+h1, h2 {
+    font-family: QuicksandBook, Arial, Helvetica, sans-serif;
+    font-size: 75%;
+    color: #b5c1ad;
+}
+h1 {
+    font-size: 240%;
+    margin-top: 140px;
+}
+.date {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 75%;
+    color: #b5c1ad;
+}
+.intro {
+    clear: left;
+    font-size: 90%;
+    line-height: 1.4em;
+}
+.main-story {
+    background-image: url("../images/triangles.png");
+    background-repeat: no-repeat;
+    background-position: 122px 142px;
+    height: 570px;
+}
+.button {
+        font-family: Arial, Helvetica, sans-serif;
+        position: fixed; /* button liigub kaasa kasutajaga */
+        bottom: 20px;
+        right: 20px;
+        background-color: #413f3b;
+        color: #d6d6d6;
+        padding: 10px 20px;
+        text-decoration: none; /* eemaldab allajoonimise */
+        border-radius: 5px; /* ümarad nurgad*/
+
+}
+
+.container {
+    display: flex;
+    align-items: center; /*Ülemine joondus*/
+    justify-content: center; /* Vasakule joondus */  /*Center - Joondab elemendid horisontaalselt keskele */
+    gap: 30px;
+    padding: 20px;
+    max-width: 90%;
+    margin: auto;
+}
+
+.container img {
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+}
+
+text {
+    font-size: 80%;
+    color: #d6d6d6;
+    display: flex;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.footer {
+    clear: both;
+    background: rgba(0,0,0,0.2);
+    padding: 5px 10px;
+}
+.footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 75%;
+    text-align: right;
+}
+.footer a {
+    color: #807c72;
+}
+#page {
+    width: 600px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #d6d6d6;
+    padding: 20px;
+}
